@@ -81,8 +81,12 @@ var tekenKogel = function(x, y) {
 var tekenSpeler = function(x, y) {
   fill("green");
   ellipse(x, y, 50, 50);
+  fill( "blue");
   ellipse(x + 15, y - 20, 20, 35);
   ellipse(x - 15, y - 20, 20, 35);
+  fill("black");
+  ellipse(x , y + 9, 30, 10);
+
 
 };
 
