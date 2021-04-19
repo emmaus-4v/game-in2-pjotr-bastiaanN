@@ -79,9 +79,9 @@ var tekenKogel = function(x, y) {
  * @param {number} y y-coördinaat
  */
 var tekenSpeler = function(x, y) {
-  fill("green");
+  fill("white");
   ellipse(x, y, 50, 50);
-  fill( "blue");
+  fill ('red');
   ellipse(x + 15, y - 20, 20, 35);
   ellipse(x - 15, y - 20, 20, 35);
   fill("black");
