@@ -48,6 +48,8 @@ var score = 0; // aantal behaalde punten
 var tekenVeld = function () {
   fill ('lightblue');
   rect(20, 20, width - 2 * 20, height - 2 * 20);
+  if 
+       (spelerY > 650){ spelerY = 650;}
 };
 
 
@@ -57,7 +59,7 @@ var tekenVeld = function () {
  * @param {number} y y-coördinaat
  */
 var tekenVijand = function(x, y) {
-    
+
 
 };
 
@@ -159,7 +161,7 @@ var checkGameOver = function() {
  */
 function setup() {
   // Maak een canvas (rechthoek) waarin je je speelveld kunt tekenen
-  createCanvas(1280, 720);
+-
 
   // Kleur de achtergrond blauw, zodat je het kunt zien
   background('blue');
