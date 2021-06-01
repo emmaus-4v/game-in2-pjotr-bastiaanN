@@ -116,6 +116,7 @@ var beweegKogel = function() {
 var beweegSpeler = function() {
     if (keyIsDown(87)) { // toets w
         spelerY = spelerY - 5;
+        spelerX = spelerX + 1;
     } 
     else {
         spelerY = spelerY + 5;
@@ -161,7 +162,7 @@ var checkGameOver = function() {
  */
 function setup() {
   // Maak een canvas (rechthoek) waarin je je speelveld kunt tekenen
--
+createCanvas(1280, 720)
 
   // Kleur de achtergrond blauw, zodat je het kunt zien
   background('blue');
