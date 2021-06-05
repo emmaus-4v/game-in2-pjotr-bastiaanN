@@ -49,8 +49,10 @@ var tekenVeld = function () {
   fill ('lightblue');
   rect(20, 20, width - 2 * 20, height - 2 * 20);
   if 
-       (spelerY > 650){ spelerY = 650;}
-};
+       (spelerY > 680){ spelerY = 680;}
+       (spelerX > 1200) ; spelerX = 1200;}
+       
+
 
 
 /**
@@ -87,10 +89,11 @@ var tekenSpeler = function(x, y) {
   ellipse(x + 11, y - 20, 10, 15);
   ellipse(x - 11, y - 20, 10, 15);
   fill("black");
-  ellipse(x , y + 9, 30, 10);
- 
+  ellipse(x , y + 9, 30, 10); 
   
 };
+
+
 
 
 /**
